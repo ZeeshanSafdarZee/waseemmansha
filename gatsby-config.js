@@ -6,10 +6,10 @@ const SITE_URL = 'https://www.janczizikow.com';
 
 module.exports = {
   siteMetadata: {
-    title: 'Jan Czizikow',
+    title: 'Waseem Mansha',
     siteUrl: SITE_URL,
-    description: `This is the site of Jan Czizikow, a Web Developer. The site is just a list of things he's been up to including blog and projects.`,
-    author: `@jan_czizikow`,
+    description: `This is the site of Waseem Mansha, a Web Developer. The site is just a list of things he's been up to including blog and projects.`,
+    author: `@waseem_mansha`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Jan Czizikow // Web Developer',
-        short_name: 'Jan Czizikow',
+        name: 'Waseem Mansha // Web Developer',
+        short_name: 'Waseem Mansha',
         start_url: '/',
         background_color: '#277cea',
         theme_color: '#277cea',

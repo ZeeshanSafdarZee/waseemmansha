@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { css } from '@emotion/core';
-import { Box, Container, Heading } from '../../UI';
-import ProjectItem from './ProjectItem';
-import theme from '../../../utils/theme';
+import React from "react";
+import PropTypes from "prop-types";
+import { css } from "@emotion/core";
+import { Box, Container, Heading } from "../../UI";
+import ProjectItem from "./ProjectItem";
+import theme from "../../../utils/theme";
 
 const propTypes = {
   projects: PropTypes.arrayOf(
@@ -13,10 +13,10 @@ const propTypes = {
         category: PropTypes.string.isRequired,
         date: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired,
-      }),
+        slug: PropTypes.string.isRequired
+      })
     })
-  ),
+  )
 };
 
 const projectsInner = css`
@@ -32,17 +32,17 @@ const projectsInner = css`
       display: grid;
       grid-template: repeat(3, 1fr) / repeat(4, 1fr);
       grid-template-areas:
-        'one one two two'
-        'three three four four'
-        'five five six six';
+        "one one two two"
+        "three three four four"
+        "five five six six";
       grid-gap: 20px;
     }
 
     @media only screen and (min-width: ${theme.breakpoints[2]}) {
-      grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+      grid-template: repeat(1, 1fr) / repeat(3, 1fr);
       grid-template-areas:
-        'one one two three'
-        'one one four five';
+        "one two three"
+        "four five six";
     }
   }
 `;

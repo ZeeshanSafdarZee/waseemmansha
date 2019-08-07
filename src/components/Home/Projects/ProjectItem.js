@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import Image from 'gatsby-image';
-import { Heading, Text } from '../../UI';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import styled from "@emotion/styled";
+import Image from "gatsby-image";
+import { Heading, Text } from "../../UI";
 
 const propTypes = {
   project: PropTypes.shape({
@@ -13,10 +13,10 @@ const propTypes = {
     date: PropTypes.string,
     thumbnail: PropTypes.shape({
       bigThumbnails: PropTypes.object,
-      smallThumbnails: PropTypes.object,
-    }),
+      smallThumbnails: PropTypes.object
+    })
   }),
-  bigThumbnail: PropTypes.bool,
+  bigThumbnail: PropTypes.bool
 };
 
 const ProjectItemLink = styled(Link)`
@@ -28,7 +28,7 @@ const ProjectItemLink = styled(Link)`
   cursor: pointer;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 100%;
@@ -87,10 +87,14 @@ const ProjectItemLink = styled(Link)`
     &:nth-of-type(5) {
       grid-area: five;
     }
+
+    &:nth-of-type(6) {
+      grid-area: six;
+    }
   }
 `;
 
-const ProjectThumbnail = styled('figure')`
+const ProjectThumbnail = styled("figure")`
   margin: 0;
   position: relative;
   overflow: hidden;
@@ -106,7 +110,7 @@ const ProjectImage = styled(Image)`
   transition: transform 0.62s cubic-bezier(0.05, 0.2, 0.1, 1);
 `;
 
-const ProjectInner = styled('figcaption')`
+const ProjectInner = styled("figcaption")`
   position: absolute;
   padding: 30px;
   top: auto;

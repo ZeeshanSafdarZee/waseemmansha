@@ -12,11 +12,13 @@ const crypto = require('crypto');
 const axios = require('axios');
 const { createRemoteFileNode } = require(`gatsby-source-filesystem`);
 
+
 exports.sourceNodes = ({ actions: { createNode }, createNodeId }) => {
   const baseApiUrl =
     process.env.NODE_ENV === 'production'
       ? 'https://janczizikow-portfolio-api.herokuapp.com/api/v2/projects/'
-      : 'http://localhost:3000/api/v2/projects/';
+      // : 'http://localhost:3000/api/v2/projects/';
+      : 'https://api.myjson.com/bins/p8yv5';
 
   const processProject = project => {
     const nodeId = createNodeId(`project-${project.name}-${project.id}`);
