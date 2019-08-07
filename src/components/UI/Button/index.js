@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
-import StyledButton from './Styled';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import StyledButton from "./Styled";
 
 const propTypes = {
   to: PropTypes.string,
   href: PropTypes.string,
-  color: PropTypes.oneOf(['primary', 'secondary', 'success', 'error']),
+  color: PropTypes.oneOf(["primary", "secondary", "success", "error"]),
   block: PropTypes.bool,
   rounded: PropTypes.bool,
   disabled: PropTypes.bool,
   loading: PropTypes.bool,
   onClick: PropTypes.func,
-  space: PropTypes.bool,
+  space: PropTypes.bool
 };
 
 class Button extends Component {
   static defaultProps = {
-    color: 'primary',
+    color: "primary"
   };
 
   onClick = e => {
@@ -40,17 +40,17 @@ class Button extends Component {
       rounded,
       space,
       color,
+      onClick,
       ...atributes
     } = this.props;
 
-    const Tag = to ? Link : href ? 'a' : 'button'; // eslint-disable-line
-
+    const Tag = to ? Link : href ? "a" : "button"; // eslint-disable-line
     return (
       <Tag
         to={to}
         href={href}
-        rel={href && 'noopener'}
-        target={href && '_blank'}
+        rel={href && "noopener"}
+        target={href && "_blank"}
         {...atributes}
         disabled={disabled}
         onClick={this.onClick}

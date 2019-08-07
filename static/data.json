@@ -1,251 +1,5 @@
 [
   {
-    "id": 6,
-    "name": "Skatespots",
-    "date": "2018-08-31",
-    "slug": "skatespots",
-    "category": "Website",
-    "description": "As a final project for my Ruby on Rails coding bootcamp I've built a shameless Airbnb copy. There's just a tiny twist - the platform focuses on skatespots rather then flats.",
-    "links": [
-      {
-        "text": "View Site",
-        "url": "https://www.skatespots.app/?ref=www.janczizikow.com"
-      }
-    ],
-    "created_at": "2018-09-12T11:58:32.362Z",
-    "updated_at": "2019-04-04T22:51:41.020Z",
-    "thumbnail": {
-      "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536753513/kblfwcamwc1gwjq8hgqp.jpg",
-      "big": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_570,w_570/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      },
-      "big_retina": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_1140,w_1140/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      },
-      "small": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_275,w_275/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      },
-      "small_retina": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_550,w_550/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      },
-      "big_placeholder": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_400,w_400/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      },
-      "small_placeholder": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_100,w_100/v1536753513/kblfwcamwc1gwjq8hgqp.jpg"
-      }
-    },
-    "photos": [
-      {
-        "id": 13,
-        "photo": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg",
-          "large": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_720/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "large_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1440/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "medium": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_690/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "medium_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1380/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_510/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1020/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "extra_small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_540/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          },
-          "extra_small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1080/v1536769263/p3fzxvkv9aoez5lzhsdj.jpg"
-          }
-        },
-        "project_id": 5,
-        "created_at": "2018-09-12T16:21:02.528Z",
-        "updated_at": "2018-09-12T16:21:02.528Z"
-      },
-      {
-        "id": 14,
-        "photo": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536769264/jjaohqfb3evmcs8tf6s4.jpg",
-          "large": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_720/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "large_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1440/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "medium": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_690/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "medium_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1380/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_510/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1020/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "extra_small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_540/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          },
-          "extra_small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1080/v1536769264/jjaohqfb3evmcs8tf6s4.jpg"
-          }
-        },
-        "project_id": 5,
-        "created_at": "2018-09-12T16:21:03.658Z",
-        "updated_at": "2018-09-12T16:21:03.658Z"
-      },
-      {
-        "id": 15,
-        "photo": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536769264/vb2yxkt8flxq72pjrgbu.jpg",
-          "large": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_720/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "large_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1440/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "medium": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_690/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "medium_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1380/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_510/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1020/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "extra_small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_540/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          },
-          "extra_small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1080/v1536769264/vb2yxkt8flxq72pjrgbu.jpg"
-          }
-        },
-        "project_id": 5,
-        "created_at": "2018-09-12T16:21:04.444Z",
-        "updated_at": "2018-09-12T16:21:04.444Z"
-      },
-      {
-        "id": 16,
-        "photo": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536769266/dgumrtypf3brvf9o7mc2.jpg",
-          "large": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_720/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "large_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1440/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "medium": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_690/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "medium_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1380/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_510/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1020/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "extra_small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_540/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          },
-          "extra_small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1080/v1536769266/dgumrtypf3brvf9o7mc2.jpg"
-          }
-        },
-        "project_id": 5,
-        "created_at": "2018-09-12T16:21:05.402Z",
-        "updated_at": "2018-09-12T16:21:05.402Z"
-      },
-      {
-        "id": 17,
-        "photo": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536769266/osmjsv5c3cufb09lai8a.jpg",
-          "large": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_720/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "large_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1440/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "medium": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_690/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "medium_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1380/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_510/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1020/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "extra_small": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_540/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          },
-          "extra_small_retina": {
-            "url": "https://res.cloudinary.com/janczizikow/image/upload/c_scale,w_1080/v1536769266/osmjsv5c3cufb09lai8a.jpg"
-          }
-        },
-        "project_id": 5,
-        "created_at": "2018-09-12T16:21:06.322Z",
-        "updated_at": "2018-09-12T16:21:06.322Z"
-      }
-    ],
-    "next": null,
-    "prev": {
-      "id": 4,
-      "name": "Jekyll Sleek",
-      "date": "2018-02-18",
-      "slug": "jekyll-sleek",
-      "category": "Website",
-      "description": "Design and development of a gem-based jekyll theme focused on speed performance and minimalistic style. Heavily inspired by well, my own website.",
-      "links": [
-        {
-          "text": "View on Github",
-          "url": "https://github.com/janczizikow/sleek"
-        },
-        {
-          "text": "View Demo Site",
-          "url": "https://janczizikow.github.io/sleek/"
-        }
-      ],
-      "created_at": "2018-09-12T11:58:31.135Z",
-      "updated_at": "2018-09-12T11:58:31.135Z",
-      "thumbnail": {
-        "url": "https://res.cloudinary.com/janczizikow/image/upload/v1536753511/c5gucuza7zswo6yz7gwe.jpg",
-        "big": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_570,w_570/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        },
-        "big_retina": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_1140,w_1140/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        },
-        "small": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_275,w_275/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        },
-        "small_retina": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_550,w_550/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        },
-        "big_placeholder": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_400,w_400/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        },
-        "small_placeholder": {
-          "url": "https://res.cloudinary.com/janczizikow/image/upload/c_fit,h_100,w_100/v1536753511/c5gucuza7zswo6yz7gwe.jpg"
-        }
-      }
-    }
-  },
-  {
     "id": 5,
     "name": "Skatespots",
     "date": "2018-08-31",
@@ -255,7 +9,8 @@
     "links": [
       {
         "text": "View Site",
-        "url": "https://www.skatespots.app/?ref=www.janczizikow.com"
+        "url": "https://www.skatespots.app/?ref=www.janczizikow.com",
+        "demo": true
       }
     ],
     "created_at": "2018-09-12T11:58:32.362Z",
@@ -505,7 +260,8 @@
       },
       {
         "text": "View Demo Site",
-        "url": "https://janczizikow.github.io/sleek/"
+        "url": "https://janczizikow.github.io/sleek/",
+        "demo": true
       }
     ],
     "created_at": "2018-09-12T11:58:31.135Z",
@@ -692,7 +448,8 @@
       },
       {
         "text": "View Site",
-        "url": "https://blancc-state.netlify.com/"
+        "url": "https://blancc-state.netlify.com/",
+        "demo": true
       }
     ],
     "created_at": "2018-09-12T11:58:30.115Z",
@@ -901,7 +658,7 @@
       "category": "Email",
       "description": "The clinic is a premier high-end physical therapy, sports medicine, and wellness center, based in Shanghai. The objective of the project was to design and develop a responsive newsletter template, that would match the high-end standards of the clinic and remain coherent with its visual i dentity, while being entirely editable in Mailchimp interface.",
       "links": [
-        
+
       ],
       "created_at": "2018-09-12T11:58:29.111Z",
       "updated_at": "2018-09-12T11:58:29.111Z",
@@ -936,7 +693,7 @@
     "category": "Email",
     "description": "The clinic is a premier high-end physical therapy, sports medicine, and wellness center, based in Shanghai. The objective of the project was to design and develop a responsive newsletter template, that would match the high-end standards of the clinic and remain coherent with its visual i dentity, while being entirely editable in Mailchimp interface.",
     "links": [
-      
+
     ],
     "created_at": "2018-09-12T11:58:29.111Z",
     "updated_at": "2018-09-12T11:58:29.111Z",
@@ -1151,7 +908,8 @@
     "links": [
       {
         "text": "View Site",
-        "url": "http://www.marinesanzvico.com/?ref=www.janczizikow.com"
+        "url": "http://www.marinesanzvico.com/?ref=www.janczizikow.com",
+        "demo": true
       }
     ],
     "created_at": "2018-09-12T11:58:27.948Z",
@@ -1286,7 +1044,7 @@
       "category": "Email",
       "description": "The clinic is a premier high-end physical therapy, sports medicine, and wellness center, based in Shanghai. The objective of the project was to design and develop a responsive newsletter template, that would match the high-end standards of the clinic and remain coherent with its visual i dentity, while being entirely editable in Mailchimp interface.",
       "links": [
-        
+
       ],
       "created_at": "2018-09-12T11:58:29.111Z",
       "updated_at": "2018-09-12T11:58:29.111Z",
