@@ -1,14 +1,12 @@
-import React from 'react';
-import { FiGithub, FiCodepen, FiLinkedin } from 'react-icons/fi';
-
-import Box from '../UI/Box';
-import Flex from '../UI/Flex';
-import FooterLink from './FooterLink';
+import React from "react";
+import { FiGithub, FiCodepen, FiLinkedin } from "react-icons/fi";
+import { Heading, Flex, Box } from "../UI";
+import FooterLink from "./FooterLink";
 
 const Footer = React.memo(() => (
   <Box is="footer" py={58} bg="bgAlt" color="white">
     <Flex alignItems="center" justifyContent="center">
-      <FooterLink
+      {/* <FooterLink
         href="https://github.com/janczizikow/"
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +29,13 @@ const Footer = React.memo(() => (
         aria-label="Linkedin"
       >
         <FiLinkedin size={24} />
-      </FooterLink>
+      </FooterLink> */}
+      <Heading color="white">
+        Waseem Mansha Full Stack Mobile/Web Developer
+      </Heading>
+      <Heading color="white">
+        Global Software Consulting 457 Johar Town Lahore Lahore,
+      </Heading>
     </Flex>
   </Box>
 ));

@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Image from 'gatsby-image';
-import SEO from '../components/SEO';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Image from "gatsby-image";
+import SEO from "../components/SEO";
 import {
   Box,
   Container,
@@ -11,29 +11,29 @@ import {
   Heading,
   Text,
   Emoji,
-  Button,
-} from '../components/UI';
+  Button
+} from "../components/UI";
 
 const propTypes = {
-  data: PropTypes.instanceOf(Object),
+  data: PropTypes.instanceOf(Object)
 };
 
 const About = ({
   data: {
     aboutImage: {
-      childImageSharp: { fluid: aboutImg },
-    },
-  },
+      childImageSharp: { fluid: aboutImg }
+    }
+  }
 }) => (
   <Box py={4}>
     <SEO title="About" />
     <Container>
       <Row alignItems="center" flexWrap="wrap">
-        <Col flex={['0 0 100%', null, null, '0 0 50%']}>
-          <Heading mt={[4, null, null, 0]}>
+        <Col flex={["0 0 100%", null, null, "0 0 50%"]}>
+          {/* <Heading mt={[4, null, null, 0]}>
             Hey, nice to meet you! <Emoji label="waving-hand">👋</Emoji>
-          </Heading>
-          <Text>
+          </Heading> */}
+          {/* <Text>
             I’m Jan, 26 year old web developer from Poland. I’m that guy on the
             picture enjoying Thai Wake Park and trying to wakeboard for the
             first time - it was a blast! Anyways, back to serious stuff, during
@@ -46,6 +46,25 @@ const About = ({
             pursue my passion - making great web experiences, this time as a
             developer. Currently I’m in Berlin, Germany, where I joined a coding
             bootcamp and I’m looking for new job opportunities.
+          </Text> */}
+          <Heading textAlign="center">About Us</Heading>
+          <Heading>Technical Experience</Heading>
+          <Text>
+            We are well-versed in a variety of operating systems, networks, and
+            databases. We use this expertise to help our customers with a
+            variety of small to mid-sized projects.
+          </Text>
+          <Heading>High ROI</Heading>
+          <Text>
+            Many companies find that constant maintenance eats into their budget
+            for new technology. By outsourcing your IT management to us, you can
+            focus on what you do best--running your business.
+          </Text>
+          <Heading>Satisfaction Guaranteed</Heading>
+          <Text>
+            That's why our goal is to provide an experience that is tailored to
+            your company's needs. No matter the budget, we pride ourselves on
+            providing professional customer service.
           </Text>
           <Button rounded href="/CV.pdf">
             View CV
@@ -53,7 +72,7 @@ const About = ({
         </Col>
         <Col
           order={[-1, null, null, 1]}
-          flex={['0 0 100%', null, null, '0 0 50%']}
+          flex={["0 0 100%", null, null, "0 0 50%"]}
         >
           <Image fluid={aboutImg} />
         </Col>
