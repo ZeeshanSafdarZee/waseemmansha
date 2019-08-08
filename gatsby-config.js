@@ -12,6 +12,7 @@ module.exports = {
     author: `@waseem_mansha`,
   },
   plugins: [
+    'gatsby-theme-gallery',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
     {

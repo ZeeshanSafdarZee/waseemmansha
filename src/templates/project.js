@@ -4,7 +4,18 @@ import { graphql } from "gatsby";
 import Image from "gatsby-image";
 import { css } from "@emotion/core";
 import SEO from "../components/SEO";
-import { Box, Container, Heading, Text, Button, Modal } from "../components/UI";
+// import { Gallery } from "gatsby-theme-gallery";
+import {
+  Box,
+  Container,
+  Heading,
+  Text,
+  Button,
+  Modal,
+  Col,
+  Row
+} from "../components/UI";
+import Gallery from "../components/Gallery/Gallery";
 import Controls from "../components/Project/Controls";
 import theme from "../utils/theme";
 
@@ -62,7 +73,6 @@ const ProjectPage = ({
   const [url, setUrl] = useState("");
   const handleClose = () => setShow(false);
   const handleShow = url => {
-    console.log("handle show called");
     setShow(true);
     setUrl(url);
   };
@@ -107,7 +117,28 @@ const ProjectPage = ({
       </Modal>
       <Box bg="bgGreyColor" py={5}>
         <Container>
-          <Box textAlign="center" mx="auto" css={{ maxWidth: "720px" }}>
+          <Row alignItems="start" flexWrap="wrap">
+            <Col flex={[null, null, null, "0 0 30%"]}>
+              <Heading>Tool Used</Heading>
+              <Heading>
+                <Text>
+                  <ul>
+                    <li>Gatsby</li>
+                    <li>React</li>
+                    <li>CMS</li>
+                  </ul>
+                </Text>
+              </Heading>
+            </Col>
+            <Col
+              order={[1, null, null, 1]}
+              flex={["0 0 100%", null, null, "0 0 70%"]}
+            >
+              <Gallery galleryImages={photos} />
+            </Col>
+          </Row>
+
+          {/* <Box textAlign="center" mx="auto" css={{ maxWidth: "720px" }}>
             {photos.map((photo, i) => (
               <Image
                 key={photo.id}
@@ -116,7 +147,7 @@ const ProjectPage = ({
                 alt={`${name}-${i}`}
               />
             ))}
-          </Box>
+          </Box> */}
         </Container>
       </Box>
       <Controls next={next} prev={prev} />
