@@ -38,6 +38,19 @@ const projectTitleStyles = css`
     background-color: ${theme.colors.primary};
   }
 `;
+const modalIFrameWrapper = css`
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+`;
+const modalIFrame = css`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`;
 
 const ProjectPage = ({
   pageContext: { name, description, links, next, prev },
@@ -88,7 +101,9 @@ const ProjectPage = ({
           </Heading>
         }
       >
-        <iframe src={url} height="400" width="740"></iframe>
+        <div css={modalIFrameWrapper}>
+          <iframe css={modalIFrame} src={url}></iframe>
+        </div>
       </Modal>
       <Box bg="bgGreyColor" py={5}>
         <Container>
