@@ -84,6 +84,9 @@ const ProjectPage = ({
         <Box py={5} mx="auto" textAlign="center" css={{ maxWidth: "720px" }}>
           <Heading css={projectTitleStyles}>{name}</Heading>
           <Text>{description}</Text>
+          <Heading>Tools Used</Heading>
+          <Text>Gatsby, React Js, CMS</Text>
+
           {links &&
             links.map(link => {
               return link.demo ? (
@@ -118,7 +121,7 @@ const ProjectPage = ({
       <Box bg="bgGreyColor" py={5}>
         <Container>
           <Row alignItems="start" flexWrap="wrap">
-            <Col flex={[null, null, null, "0 0 30%"]}>
+            {/* <Col flex={[null, null, null, "0 0 30%"]}>
               <Heading>Tool Used</Heading>
               <Heading>
                 <Text>
@@ -129,10 +132,10 @@ const ProjectPage = ({
                   </ul>
                 </Text>
               </Heading>
-            </Col>
+            </Col> */}
             <Col
               order={[1, null, null, 1]}
-              flex={["0 0 100%", null, null, "0 0 70%"]}
+              flex={["0 0 100%", null, null, "0 0 100%"]}
             >
               <Gallery galleryImages={photos} />
             </Col>

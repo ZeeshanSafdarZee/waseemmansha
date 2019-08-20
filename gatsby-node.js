@@ -79,6 +79,8 @@ exports.onCreateNode = async ({
 
     if (thumbnailNode) {
       delete node.thumbnail;
+      console.log('node',node)
+      console.log('thumbnailNode',thumbnailNode)
       node.thumbnail___NODE = thumbnailNode.id;
     }
 

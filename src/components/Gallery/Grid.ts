@@ -6,7 +6,7 @@ const Grid = styled.div`
   grid-auto-rows: 16rem;
   grid-gap: 0.5rem;
 
-  @media (min-width: 1400px) {
+  @media (min-width: 1200px) {
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     grid-auto-rows: 24rem;
   }
