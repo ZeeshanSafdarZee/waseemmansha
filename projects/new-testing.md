@@ -10,7 +10,8 @@ description: >-
   Testing.This is new Testing.This is new Testing.This is new Testing.This is
   new Testing.This is new Testing.This is new Testing.This is new Testing.This
   is new Testing.This is new Testing.This is new Testing.This is new Testing.
-images:
+thumbnail: /assets/1.-data-binding.png
+gallery:
   - /assets/1.-data-binding.png
   - /assets/2.-directives.png
 ---
