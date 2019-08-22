@@ -1,7 +1,9 @@
 ---
+id: '10'
 slug: test-project-new
+category: website
 date: 2019-08-22T06:29:06.790Z
-title: Test Project New
+name: Test Project New
 tools: 'React, Gatsby, Netlify'
 description: >-
   A new test Project.
