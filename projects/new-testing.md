@@ -14,6 +14,15 @@ thumbnail: /assets/1.-data-binding.png
 gallery:
   - /assets/1.-data-binding.png
   - /assets/2.-directives.png
+links:
+  - demo: true
+    demo_url: 'null'
+    git_url: ' https://github.com/janczizikow/sleek'
+    name: View on Github
+  - demo: true
+    demo_url: 'https://janczizikow.github.io/sleek/'
+    git_url: 'null'
+    name: View Demo
 next:
   slug: home-need
   name: Home Needs
