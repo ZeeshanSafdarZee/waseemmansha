@@ -14,5 +14,11 @@ thumbnail: /assets/1.-data-binding.png
 gallery:
   - /assets/1.-data-binding.png
   - /assets/2.-directives.png
+next:
+  slug: home-need
+  name: Home Needs
+prev:
+  slug: 'null'
+  name: 'null'
 ---
 
